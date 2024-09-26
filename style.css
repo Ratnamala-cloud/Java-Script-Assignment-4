@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: greenyellow;
+}
+
+.container {
+    width: 50%;
+    height: 250px;
+    margin-top: 200px;
+    margin-left: 325px;
+    text-align: center;
+    background-color: palevioletred;
+    border-radius: 20%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1{
+    background-color: blue;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.option{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+    
+}
+img{
+    height: 100px;
+    height: 100px;
+    border-radius: 15px 50px ;
+    
+}
+.A{
+    position: absolute;
+    margin-top: 160px;
+    padding: 8px;
+    width: 80px;
+    background-color: blueviolet;
+    font-size: bold;
+}
+.AA{
+    position: absolute;
+    margin-top: 160px;
+    padding: 8px;
+    width: 80px;
+    background-color: brown;
+    font-size: bold;
+}
+.AAA{
+    position: absolute;
+    margin-top: 160px;
+    padding: 8px;
+    width: 80px;
+    background-color: red;
+    font-size: bold;
+}
+.option:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+
+.scoreboard{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+    
+}
+
+.message-conainer{
+    margin-bottom: 5rem;
+}
+
+#message{
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+    display: inline;
+    padding:15px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
